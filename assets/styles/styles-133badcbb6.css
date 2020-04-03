@@ -1176,3 +1176,7 @@ figcaption {
     float: right; /* Выравнивание по правому краю */
     margin: 0 0 1em 1em; /* Отступ снизу и слева */
 }
+
+a :hover {
+    text-decoration: underline;
+}
