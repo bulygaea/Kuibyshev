@@ -318,7 +318,7 @@ a {
 }
 
 .wrapper--back {
-    text-shadow: 2.5px 2.5px hsl(8, 75%, 0%);
+    text-shadow: 1.5px 1.5px hsl(8, 75%, 0%);
     /*background-color: hsla(162, 2%, 85%, 0.25);*/
 }
 
