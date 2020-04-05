@@ -742,13 +742,13 @@ a {
     margin: .25rem 1rem
 }
 
-.icon {
+/*.icon {
     background-image: url(../../assets/images/sprites/sprite-e79e95cc.svg)
 }
 
 .no-svg .icon {
     background-image: url(../../assets/images/sprites/sprite-e79e95cc.png)
-}
+}*/
 
 .clear-view-escapes {
     color: white;
@@ -771,15 +771,23 @@ a {
     background-position: 26.424310365536293% 45.92133741323979%
 }
 
-.icon--fire {
-    width: 58px;
-    height: 66px;
+.icon--gallery {
+    background-image: url(../../assets/images/sprites/gallery.svg);
+    width: 72px;
+    height: 72px;
     background-position: 0 99.58035714285714%
 }
 
 .icon--globe {
     width: 66px;
     height: 66px;
+    background-position: 28.019323671497585% 99.58035714285714%
+}
+
+.icon--pic {
+    background-image: url(../../assets/images/sprites/pic.svg);
+    width: 50pt;
+    height: 50pt;
     background-position: 28.019323671497585% 99.58035714285714%
 }
 
@@ -795,9 +803,10 @@ a {
     background-position: 0 48.0703125%
 }
 
-.icon--rain {
-    width: 66px;
-    height: 66px;
+.icon--book {
+    background-image: url(../../assets/images/sprites/book.svg);
+    width: 45pt;
+    height: 41pt;
     background-position: 99.71014492753623% 58.92857142857143%
 }
 
@@ -813,7 +822,8 @@ a {
     background-position: 94.15199343125627% 98.55159026429745%
 }
 
-.icon--wifi {
+.icon--films {
+    background-image: url(../../assets/images/sprites/films.svg);
     width: 62px;
     height: 66px;
     background-position: 68.43601895734596% 0
