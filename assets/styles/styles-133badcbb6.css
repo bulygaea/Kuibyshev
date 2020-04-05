@@ -742,14 +742,6 @@ a {
     margin: .25rem 1rem
 }
 
-/*.icon {
-    background-image: url(../../assets/images/sprites/sprite-e79e95cc.svg)
-}
-
-.no-svg .icon {
-    background-image: url(../../assets/images/sprites/sprite-e79e95cc.png)
-}*/
-
 .clear-view-escapes {
     color: white;
     font-size: 20pt;
@@ -759,28 +751,26 @@ a {
     background-position: 0 0
 }
 
-.icon--comment {
-    width: 66px;
-    height: 66px;
-    background-position: 99.71014492753623% 0
-}
 
-.icon--facebook {
-    width: 23.23px;
-    height: 44.01px;
-    background-position: 26.424310365536293% 45.92133741323979%
-}
 
 .icon--gallery {
     background-image: url(../../assets/images/sprites/gallery.svg);
-    width: 72px;
-    height: 72px;
+    width: 50pt;
+    height: 54pt;
     background-position: 0 99.58035714285714%
 }
 
-.icon--globe {
-    width: 66px;
-    height: 66px;
+.icon--audio {
+    background-image: url(../../assets/images/sprites/audio.svg);
+    width: 50pt;
+    height: 46pt;
+    background-position: 0 99.58035714285714%
+}
+
+.icon--maps {
+    background-image: url(../../assets/images/sprites/maps.svg);
+    width: 50pt;
+    height: 41pt;
     background-position: 28.019323671497585% 99.58035714285714%
 }
 
@@ -789,6 +779,26 @@ a {
     width: 50pt;
     height: 41pt;
     background-position: 28.019323671497585% 99.58035714285714%
+}
+
+.icon--book {
+    background-image: url(../../assets/images/sprites/book.svg);
+    width: 45pt;
+    height: 41pt;
+    background-position: 99.71014492753623% 58.92857142857143%
+}
+
+.icon--films {
+    background-image: url(../../assets/images/sprites/films.svg);
+    width: 50pt;
+    height: 46pt;
+    background-position: 68.43601895734596% 0
+}
+
+.icon--star {
+    width: 66px;
+    height: 66px;
+    background-position: 59.90338164251208% 99.58035714285714%
 }
 
 .icon--instagram {
@@ -803,30 +813,10 @@ a {
     background-position: 0 48.0703125%
 }
 
-.icon--book {
-    background-image: url(../../assets/images/sprites/book.svg);
-    width: 45pt;
-    height: 41pt;
-    background-position: 99.71014492753623% 58.92857142857143%
-}
-
-.icon--star {
+.icon--comment {
     width: 66px;
     height: 66px;
-    background-position: 59.90338164251208% 99.58035714285714%
-}
-
-.icon--twitter {
-    width: 53.78px;
-    height: 44.06px;
-    background-position: 94.15199343125627% 98.55159026429745%
-}
-
-.icon--films {
-    background-image: url(../../assets/images/sprites/films.svg);
-    width: 50pt;
-    height: 46pt;
-    background-position: 68.43601895734596% 0
+    background-position: 99.71014492753623% 0
 }
 
 .icon--youtube {
