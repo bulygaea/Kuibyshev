@@ -787,7 +787,7 @@ a {
 .icon--pic {
     background-image: url(../../assets/images/sprites/pic.svg);
     width: 50pt;
-    height: 50pt;
+    height: 41pt;
     background-position: 28.019323671497585% 99.58035714285714%
 }
 
@@ -824,8 +824,8 @@ a {
 
 .icon--films {
     background-image: url(../../assets/images/sprites/films.svg);
-    width: 62px;
-    height: 66px;
+    width: 50pt;
+    height: 46pt;
     background-position: 68.43601895734596% 0
 }
 
