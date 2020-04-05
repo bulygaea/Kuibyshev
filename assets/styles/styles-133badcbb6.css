@@ -1049,15 +1049,18 @@ a {
 }
 
 .brd {
+    padding-left: 1%;
+    padding-right: 5%;
+}
 
-    padding-left: 15px;
-    padding-right: 30px;
+.brd ul {
+    padding-left: 2%;
 }
 
 .brd .primary-nav a {
     background-color: hsl(189, 50%, 100%);
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .brd a div {
@@ -1188,4 +1191,14 @@ figcaption {
 
 a :hover {
     text-decoration: underline;
+}
+
+.sbr {
+    font-family: cursive;
+    font-style: italic;
+    position:relative;
+
+    top: 2px;
+    font-size: 22px;
+    color: rgb(47, 85, 114);
 }
