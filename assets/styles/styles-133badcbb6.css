@@ -274,7 +274,7 @@ a {
     font-family: cursive;
     font-weight: 100;
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     text-shadow: 3px 2px 2px hsl(0, 98%, 1%);
     max-width: 30rem;
     margin-left: auto;
@@ -283,7 +283,7 @@ a {
 
 @media(min-width: 530px) {
     .large-hero__description {
-        font-size:1.7rem;
+        font-size:1.5rem;
     }
 }
 
