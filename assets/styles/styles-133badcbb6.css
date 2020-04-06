@@ -271,6 +271,7 @@ a {
 }
 
 .large-hero__description {
+    font-family: cursive;
     font-weight: 100;
     color: #fff;
     font-size: 1.1rem;
@@ -282,7 +283,7 @@ a {
 
 @media(min-width: 530px) {
     .large-hero__description {
-        font-size:1.875rem
+        font-size:1.7rem;
     }
 }
 
@@ -1197,7 +1198,6 @@ a :hover {
     font-family: cursive;
     font-style: italic;
     position:relative;
-
     top: 2px;
     font-size: 22px;
     color: rgb(47, 85, 114);
