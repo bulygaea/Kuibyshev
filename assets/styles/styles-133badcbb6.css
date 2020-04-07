@@ -1208,18 +1208,6 @@ a {
 figcaption {
     text-align: center;
 }
-.left {
-    float: left; /* Выравнивание по левому краю */
-    margin: 0 1em 1em 0; /* Отступ справа и снизу */
-}
-.right {
-    float: right; /* Выравнивание по правому краю */
-    margin: 0 0 1em 1em; /* Отступ снизу и слева */
-}
-
-a :hover {
-    text-decoration: underline;
-}
 
 .sbr {
     font-family: cursive;
