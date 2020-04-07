@@ -248,7 +248,20 @@ a {
 }
 
 .large-hero___pages {
-    color: #fff;
+    color: hsl(8, 100%, 36%);
+    text-shadow: 3px 2px 2px hsl(8, 98%, 0%);
+}
+
+@media(min-width: 800px) {
+    .large-hero__pages-title {
+        top: 30%;
+    }
+}
+
+@media(min-width: 530px) {
+    .large-hero__pages-title {
+        top: 20%;
+    }
 }
 
 @media(min-width: 530px) {
