@@ -218,7 +218,7 @@ a {
 
 .large-hero {
     border-bottom: 10px solid #2f5572;
-    position: relative
+    position: relative;
 }
 
 .large-hero__image {
@@ -232,7 +232,7 @@ a {
     transform: translateY(-50%);
     left: 0;
     width: 100%;
-    text-align: center
+    text-align: center;
 }
 
 .large-hero__title {
@@ -293,7 +293,7 @@ a {
     text-shadow: 3px 2px 2px hsl(0, 98%, 1%);
     max-width: 30rem;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 @media(min-width: 530px) {
