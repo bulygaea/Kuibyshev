@@ -766,7 +766,7 @@ a {
 
 .clear-view-escapes {
     color: white;
-    font-size: 20pt;
+    font-size: 25pt;
     text-align: center;
     width: 75%;
     height: 61.53px;
@@ -905,7 +905,7 @@ a {
     transition: transform .3s ease-out;
     transform-origin: 50% 0;
     background-color: #2f5572;
-    padding: 15px 36px;
+    padding: 15px 17px;
 }
 
 @media(min-width: 800px) {
