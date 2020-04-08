@@ -327,6 +327,7 @@ a {
     position: fixed;
     bottom: 10%;
     right: 5%;
+    border-radius: 7px;
     background: hsla(206, 42%, 32%, 35%);
     background-image: url(../../assets/images/sprites/arrow.svg);
 }
