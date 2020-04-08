@@ -16,6 +16,7 @@
 
 </head>
 <body style="font-family: Tahoma;">
+  <div id="top"></div>
   <header class="site-header">
     <div class="wrapper">
       <div class="site-header__logo">
@@ -66,7 +67,7 @@
   </div>
 
 
-  <div><a href="#" class="btn--blue"></a></div>
+  <div><a href="#top" class="btn--blue"></a></div>
 
    <footer class="site-footer">
     <div class="wrapper">
@@ -94,5 +95,21 @@
       <div class="modal__close">X</div>
   </div>
 
+  <script>
+    const anchors = document.querySelectorAll('a[href*="#"]')
+
+    for (let anchor of anchors) {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault()
+
+        const blockID = anchor.getAttribute('href').substr(1)
+
+        document.getElementById(blockID).scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        })
+      })
+    }
+  </script>
    <script src="../assets/scripts/App-f027496c0c.js"></script>
 </body>
