@@ -261,7 +261,7 @@ a {
 @media(min-width: 530px) {
     .large-hero__title {
         font-size:4.8rem;
-        padding-right: 5%;
+        padding-right: 7%;
         text-align: right;
     }
 }
