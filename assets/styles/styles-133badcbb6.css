@@ -1086,6 +1086,14 @@ a {
     text-align: justify;
 }
 
+.book__header {
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: bolder;
+    color: hsl(8, 75%, 30%);
+}
+
 .brd ul {
     padding-left: 2%;
 }
