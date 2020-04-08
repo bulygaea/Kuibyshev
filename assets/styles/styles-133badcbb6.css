@@ -320,6 +320,28 @@ a {
     background-color: #d59541;
 }
 
+.btn--blue {
+    width: 50pt;
+    height: 50pt;
+    display: inline-block;
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    background: hsla(206, 42%, 32%, 35%);
+    background-image: url(../../assets/images/sprites/arrow.svg);
+}
+
+.btn--blue:hover {
+    transition-property: background-color;
+    transition-duration: 0.25s;
+    background: hsla(206, 42%, 32%, 90%);
+    background-image: url(../../assets/images/sprites/arrow.svg);
+}
+
+.btn--blue:click {
+    transition-property:
+}
+
 .btn--large {
     padding: 1.1rem 1.9rem
 }
