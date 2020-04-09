@@ -92,13 +92,19 @@ sup {
     top: -.5em
 }
 
-audio,video {
+audio, video {
     display: inline-block
 }
 
 audio:not([controls]) {
     display: none;
     height: 0
+}
+
+audio {
+    width: 500px;
+    height: 60px;
+    margin-left: 5%;
 }
 
 img {
