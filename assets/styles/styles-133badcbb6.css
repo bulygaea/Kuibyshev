@@ -593,38 +593,25 @@ a {
     }
 
     .row__large-4 {
-        float: left;
+        margin: 0 auto;
         width: 50%
     }
 
     .row__large-4--larger {
+        margin: 0 auto;
         width: 54%
     }
 
     .row__large-6 {
-        float: left;
         width: 50%
     }
 
     .row__large-8 {
-        float: left;
         width: 66.66%
     }
 
     .row__large-8--smaller {
         width: 63%
-    }
-}
-
-@media(min-width: 530px) {
-    .row__large-4 {
-        margin: 0 23%;
-    }
-}
-
-@media(max-width: 530px) {
-    .row__large-4 {
-        margin: 0 1%;
     }
 }
 
@@ -754,7 +741,7 @@ a {
 }
 
 .testimonial {
-    margin: 3%;
+    margin: 3% auto;
     background-color: hsla(0,0%,100%,.8);
     padding: 5px 18px 1px;
 }
@@ -1260,5 +1247,14 @@ figcaption {
     }
     .poemsL {
         float: left;
+    }
+}
+
+@media(max-width: 800px) {
+    .poemsR {
+        margin: 0 auto;
+    }
+    .poemsL {
+        margin: 0 auto;
     }
 }
