@@ -747,7 +747,7 @@ a {
 }
 
 @media(min-width: 1010px) {
-    .testimonial {
+    .testimonial p {
         column-count: 2;
     }
 }
