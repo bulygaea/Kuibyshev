@@ -1244,17 +1244,21 @@ figcaption {
 @media(min-width: 800px) {
     .poemsR {
         float: right;
+        width: 50%;
     }
     .poemsL {
         float: left;
+        width: 50%;
     }
 }
 
 @media(max-width: 800px) {
     .poemsR {
         margin: 0 auto;
+        width: 95%;
     }
     .poemsL {
         margin: 0 auto;
+        width: 95%;
     }
 }
