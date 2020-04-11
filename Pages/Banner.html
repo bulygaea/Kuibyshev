@@ -73,7 +73,7 @@
   </div>
 
     <div class="wrapper" align="center">
-      <h2 class="headline headline--centered headline--light headline--b-margin-small"><strong>Рисунки</strong></h2>
+      <h2 class="headline headline--centered headline--light headline--b-margin-small" id="scrolling"><strong>Рисунки</strong></h2>
       <div class="pic">
         <img src="pictures/Mainz.jpg" width="95%" height="100%" title="Для скачивания нажмите на имя автора" style="box-shadow: 0 0 35px 1px hsla(0, 98%, 1%, 70%); margin: 1%;">
         <a href="pictures/Main.jpg" download><h2><span>Кирилл Лаптев, 10 класс</span></h2></a>
@@ -163,7 +163,7 @@
 
         const blockID = anchor.getAttribute('href').substr(1)
 
-        document.getElementById(blockID).scrollIntoView({
+        document.getElementById(blockID).scrollIntoView ({
           behavior: 'smooth',
           block: 'start'
         })
