@@ -1262,3 +1262,67 @@ figcaption {
         width: 95%;
     }
 }
+
+.pic {
+    position: relative;
+}
+
+@media(min-width: 530px) {
+    .pic h2 {
+        text-align: left;
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+        width: 100%;
+    }
+
+    .pic h2 span {
+        color: hsl(8, 75%, 23%);
+        font-size: 75%;
+        background: hsla(0,0%,100%,.8);
+        padding: 10px;
+    }
+}
+
+@media(max-width: 530px) {
+    .pic h2 {
+        text-align: right;
+        margin-top: 0;
+    }
+    .pic h2 span {
+        color: #2f5572;
+        font-size: 14px;
+    }
+}
+
+.pic2 {
+    position: relative;
+}
+
+@media(min-width: 530px) {
+    .pic2 h2 {
+        text-align: left;
+        position: absolute;
+        bottom: 5%;
+        left: 21%;
+        width: 60%;
+    }
+
+    .pic2 h2 span {
+        color: hsl(8, 75%, 23%);
+        font-size: 75%;
+        background: hsla(0,0%,100%,.8);
+        padding: 10px;
+    }
+}
+
+@media(max-width: 530px) {
+    .pic2 h2 {
+        text-align: right;
+        margin-top: 0;
+    }
+    .pic2 h2 span {
+        color: #2f5572;
+        font-size: 14px;
+    }
+}
