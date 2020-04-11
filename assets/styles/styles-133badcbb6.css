@@ -1268,7 +1268,7 @@ figcaption {
 }
 
 @media(min-width: 530px) {
-    .pic h2 {
+    .pic a h2 {
         text-align: left;
         position: absolute;
         bottom: 5%;
@@ -1276,7 +1276,7 @@ figcaption {
         width: 100%;
     }
 
-    .pic h2 span {
+    .pic a h2 span {
         color: hsl(8, 75%, 23%);
         font-size: 75%;
         background: hsla(0,0%,100%,.8);
@@ -1285,11 +1285,11 @@ figcaption {
 }
 
 @media(max-width: 530px) {
-    .pic h2 {
+    .pic a h2 {
         text-align: right;
         margin-top: 0;
     }
-    .pic h2 span {
+    .pic a h2 span {
         color: #2f5572;
         font-size: 14px;
     }
@@ -1300,7 +1300,7 @@ figcaption {
 }
 
 @media(min-width: 530px) {
-    .pic2 h2 {
+    .pic2 a h2 {
         text-align: left;
         position: absolute;
         bottom: 5%;
@@ -1308,7 +1308,7 @@ figcaption {
         width: 60%;
     }
 
-    .pic2 h2 span {
+    .pic2 a h2 span {
         color: hsl(8, 75%, 23%);
         font-size: 75%;
         background: hsla(0,0%,100%,.8);
@@ -1317,11 +1317,11 @@ figcaption {
 }
 
 @media(max-width: 530px) {
-    .pic2 h2 {
+    .pic2 a h2 {
         text-align: right;
         margin-top: 0;
     }
-    .pic2 h2 span {
+    .pic2 a h2 span {
         color: #2f5572;
         font-size: 14px;
     }
