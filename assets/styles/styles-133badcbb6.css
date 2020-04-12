@@ -1336,3 +1336,25 @@ figcaption {
     margin: 1%;
 }
 
+.flm {
+    height: 150px;
+}
+
+@media(min-width: 400px) {
+    .flm {
+        height: 200px;
+    }
+}
+
+@media(min-width: 530px) {
+    .flm {
+        height: 276px;
+    }
+}
+
+
+@media(min-width: 800px) {
+    .flm {
+        height: 546px;
+    }
+}
