@@ -1326,3 +1326,13 @@ figcaption {
         font-size: 14px;
     }
 }
+
+.gal {
+    height: 100%;
+    margin: 1%;
+}
+.gal img {
+    width: 47%;
+    margin: 1%;
+}
+
