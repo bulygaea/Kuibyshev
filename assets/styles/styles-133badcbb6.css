@@ -1358,3 +1358,15 @@ figcaption {
         height: 546px;
     }
 }
+
+@media(min-width: 530px) {
+    .feed {
+        width: 85%;
+    }
+}
+
+@media(min-width: 800px) {
+    .feed {
+        width: 75%;
+    }
+}
