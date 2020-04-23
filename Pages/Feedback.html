@@ -8,6 +8,13 @@
 
   <link rel="stylesheet" href="../assets/styles/styles-133badcbb6.css"/>
 
+  <!-- Put this script tag to the <head> of your page -->
+  <script type="text/javascript" src="https://vk.com/js/api/openapi.js?167"></script>
+
+  <script type="text/javascript">
+    VK.init({apiId: 7428186, onlyWidgets: true});
+  </script>
+
   <!--<script src="../assets/scripts/Check.js"></script>-->
   <script src="../assets/scripts/Vendor-c19e6efdf0.js"></script>
 
@@ -61,20 +68,13 @@
 
 	    <h2 class="headline headline--centered headline--light headline--b-margin-small" style="text-align: left;">Оставьте свой отзыв!</h2>
 
-	    <!-- Put this script tag to the <head> of your page -->
-        <script type="text/javascript" src="https://vk.com/js/api/openapi.js?167"></script>
-
-        <script type="text/javascript">
-          VK.init({apiId: 7428186, onlyWidgets: true});
-        </script>
-
+      <div style="box-shadow: 0 0 15px 0px hsla(0, 98%, 1%, 25%); margin: 1%; width: 65%;">
         <!-- Put this div tag to the place, where the Comments block will be -->
         <div id="vk_comments"></div>
         <script type="text/javascript">
-        VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+          VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
         </script>
-
-
+      </div>
 
   </div>
 
