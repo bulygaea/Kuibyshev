@@ -61,25 +61,18 @@
 
 	    <h2 class="headline headline--centered headline--light headline--b-margin-small" style="text-align: left;">Оставьте свой отзыв!</h2>
 
-	    <form name="comment" action="comment.php" method="post">
+	    <!-- Put this script tag to the <head> of your page -->
+        <script type="text/javascript" src="https://vk.com/js/api/openapi.js?167"></script>
 
-          <p>
-            <label>Имя:</label>
-            <input type="text" name="name" />
-          </p>
+        <script type="text/javascript">
+          VK.init({apiId: API_ID, onlyWidgets: true});
+        </script>
 
-          <p>
-            <label>Комментарий:</label>
-            <br />
-            <textarea name="text_comment" cols="30" rows="50"></textarea>
-          </p>
-
-          <p>
-            <input type="hidden" name="page_id" value="150" />
-            <input type="submit" value="Отправить" />
-          </p>
-
-        </form>
+        <!-- Put this div tag to the place, where the Comments block will be -->
+        <div id="vk_comments"></div>
+        <script type="text/javascript">
+        VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+        </script>
 
 
 
