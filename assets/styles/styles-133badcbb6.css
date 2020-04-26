@@ -327,13 +327,14 @@ a {
 }
 
 .btn--blue {
-    width: 50pt;
-    height: 50pt;
+    width: 35pt;
+    height: 35pt;
     display: inline-block;
     position: fixed;
-    bottom: 10%;
-    right: 5%;
-    border-radius: 7px;
+    bottom: 2%;
+    right: 4%;
+    border-radius: 25pt;
+    border: 1px solid hsla(206, 42%, 32%, 90%);
     background: hsla(206, 42%, 32%, 35%);
     background-image: url(../../assets/images/sprites/arrow.svg);
 }
@@ -345,8 +346,20 @@ a {
     background-image: url(../../assets/images/sprites/arrow.svg);
 }
 
-.btn--blue:click {
-    transition-property:
+.btn--vk-ok {
+    display: inline-block
+}
+
+.btn--vk {
+    margin: 3px;
+    float: left;
+    width: 38.2px;
+}
+
+.btn--ok {
+    margin: 3px;
+    float: right;
+    width: 35.2px;
 }
 
 .btn--large {

@@ -25,6 +25,31 @@
   </script>
   <noscript><div><img src="https://mc.yandex.ru/watch/62254369" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
   <!-- /Yandex.Metrika counter -->
+
+    <!-- Put this script tag to the <head> of your page -->
+  <script type="text/javascript" src="https://vk.com/js/api/share.js?95" charset="windows-1251"></script>
+
+    <script>
+      !function (d, id, did, st, title, description, image) {
+        function init(){
+          OK.CONNECT.insertShareWidget(id,did,st, title, description, image);
+        }
+        if (!window.OK || !OK.CONNECT || !OK.CONNECT.insertShareWidget) {
+          var js = d.createElement("script");
+          js.src = "https://connect.ok.ru/connect.js";
+          js.onload = js.onreadystatechange = function () {
+          if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
+            if (!this.executed) {
+              this.executed = true;
+              setTimeout(init, 0);
+            }
+          }};
+          d.documentElement.appendChild(js);
+        } else {
+          init();
+        }
+      }(document,"ok_shareWidget",document.URL,'{"sz":30,"st":"oval","nc":1,"nt":1,"bgclr":"ED8207","txclr":"FFFFFF"}',"","","");
+      </script>
 </head>
 <body style="font-family: Tahoma;">
   <div id="top"></div>
@@ -340,9 +365,25 @@
 
   <div><a href="#top" class="btn--blue"></a></div>
 
-   <footer class="site-footer">
+  <footer class="site-footer">
     <div class="wrapper">
-      <p><span class="site-footer__text">Copyright &copy; 2020 Bulyga Ekaterina</span> <a href="#" class="btn btn--orange open-modal">Контакты</a></p>
+      <p>
+        <span class="site-footer__text">Copyright &copy; 2020 Bulyga Ekaterina</span>
+
+      <div class="btn--vk-ok">
+
+        <div class="btn--vk">
+          <!-- Put this script tag to the place, where the Share button will be -->
+          <script type="text/javascript">
+            document.write(VK.Share.button(false,{type: "custom", text: "<img src=\"https://vk.com/images/share_32.png\" width=\"35\" height=\"35\" />"}));
+          </script>
+        </div>
+
+        <div id="ok_shareWidget" class="btn--ok"></div>
+
+    </div>
+        <br><a href="#" class="btn btn--orange open-modal" align="right">Контакты</a>
+      </p>
     </div>
   </footer>
 
