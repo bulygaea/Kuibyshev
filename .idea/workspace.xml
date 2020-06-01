@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faf7f0d3-4400-473c-8abd-f72c619e90a1" name="Default Changelist" comment="" />
+    <list default="true" id="faf7f0d3-4400-473c-8abd-f72c619e90a1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../RepetitorBulygaEA" />
   </component>
   <component name="RunManager" selected="Python.Задача 19">
     <configuration name="Задача 19" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -115,26 +117,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1589967703906">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1590905260141">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1589967703906" />
-    <state width="746" height="221" key="GridCell.Tab.0.bottom" timestamp="1589966511938">
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1590905260141" />
+    <state width="1513" height="223" key="GridCell.Tab.0.bottom" timestamp="1590905261756">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="221" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589966511938" />
-    <state width="746" height="221" key="GridCell.Tab.0.center" timestamp="1589966511938">
+    <state width="1513" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1590905261756" />
+    <state width="1513" height="223" key="GridCell.Tab.0.center" timestamp="1590905261756">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="221" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589966511938" />
-    <state width="746" height="221" key="GridCell.Tab.0.left" timestamp="1589966511938">
+    <state width="1513" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1590905261756" />
+    <state width="1513" height="223" key="GridCell.Tab.0.left" timestamp="1590905261755">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="221" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589966511938" />
-    <state width="746" height="221" key="GridCell.Tab.0.right" timestamp="1589966511938">
+    <state width="1513" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1590905261755" />
+    <state width="1513" height="223" key="GridCell.Tab.0.right" timestamp="1590905261756">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="221" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589966511938" />
+    <state width="1513" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1590905261756" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1589954585576">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
